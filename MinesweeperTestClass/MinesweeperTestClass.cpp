@@ -19,7 +19,7 @@ int Random(int min, int max) {
 	uniform_int_distribution<int> dist(min, max);
 	return dist(mt);
 }
-
+// test
 /*bool Find(vector<vector<Tile *>> v, Vector2i position) {
 	bool f = false;
 	return v.at(position.y / 32).at(position.x / 32)->theMine();
